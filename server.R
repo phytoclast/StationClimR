@@ -115,6 +115,7 @@ shinyServer(function(input, output, session) {
     )
     selectClim2$wts <- 1/(((selectClim2$Latitude - selecty)^2 + (selectClim2$Longitude - selectx)^2)^0.5+5)#give less weight for more distant points.
     selectClim2$LRU <- 'other' #Relabeling the external data to identify it later to take it back out.
+    selectClim2$Station_Name <- 'other' #Relabeling the name to omit as aggregating factor.
     selectClim$wts <- 1 #Full weight for primary internal data.
     selectClim <- rbind(selectClim, selectClim2)
     rm(selectClim2)

@@ -1,0 +1,13 @@
+name: StationClimR
+title: StationClimR
+username:
+account: usda
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1119107
+bundleId: 2392429
+url: https://usda.shinyapps.io/StationClimR/
+when: 1567793640.19839
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes
