@@ -48,7 +48,7 @@ fluidPage(
     HTML("</font>")
     )),
   fluidRow(
-      HTML("<font size=-2>Based on 1981-2010 Climatic Normals. Error bars on temperature and precipitation are the 20th and 80th percentiles for the 30 years of data, and encompasing the geographic variability. Click here for more information about the "),
+      HTML("<font size=-2>Based on 1981-2010 Climatic Normals. Error bars on temperature and precipitation are the 20th and 80th percentiles for the 30 years of data for a single station. Other graphs show each year as individual points. Click here for more information about the "),
                   tags$a(href="https://phytoclast.github.io/ClimateClassification/", "climate classification"),
                   HTML(" used above.</font>")
            )
